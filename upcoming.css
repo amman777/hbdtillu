@@ -29,13 +29,13 @@
     --container-width-us: 98%;
 
 
-    --transition: all 400ms ease;
+    --transition: all 300ms ease;
 
 
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Jost', sans-serif;
     line-height: 1.7;
     color: var(--color-black);
     background: url(bg_past.png);
@@ -43,7 +43,7 @@ body {
 /* background-repeat: no-repeat; */
 
     opacity: 0;
-    transition: opacity 1.2s ease;
+    transition: all 300ms ease;
     
 
 }
@@ -94,7 +94,7 @@ h4 {
 }
 
 p {
-    font-family: 'Abyssinica SIL', serif;
+    font-family: 'Jost', sans-serif;
 }
 
 
