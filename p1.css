@@ -28,7 +28,7 @@
     --container-width-sm: 94%;
     --container-width-us: 98%;
     --linear: rgba(250, 162, 220);
-    
+
 
     --transition: all 300ms ease;
 
@@ -41,16 +41,18 @@ body {
     color: var(--color-black);
     background: url(past.png);
     background-size: cover;
-/* background-repeat: no-repeat; */
+    /* background-repeat: no-repeat; */
 
     opacity: 0;
     transition: all 300ms ease;
-    
+
 
 }
+
 .loaded {
     opacity: 1;
 }
+
 .container {
     width: var(--container-width-sm);
     margin: -3rem auto;
@@ -101,17 +103,15 @@ p {
 
 /* *--------image code -----------* */
 
-.images
-{
-   
+.images {
+
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
 
-.img img
-{
+.img img {
     height: 200px;
     width: 200px;
     border-radius: 50%;
@@ -146,35 +146,45 @@ p {
     text-align: center;
 }
 
-.circle a p
-{
+.circle a p {
     font-weight: 600;
 }
-.circle a 
-{
+
+.circle a {
     color: black;
-    
+
 }
-.circle
-{
-        width: 110px;
-        height: 110px;
-        border-radius: 50%;
-        background: #F9BD55;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        
+
+.circle {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background: #F9BD55;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     /* } */
 }
-.circles
-{
+
+.circles {
     padding-top: 2rem;
     display: flex;
     justify-content: center;
 }
 
-    /* @media screen and (max-width:345px)
+@media screen and (max-width:345px) {
+    #excep{
+        rotate: -52deg;
+    }
+}
+@media screen and (max-width:300px)
+{
+    #excep{
+        rotate: -52deg;
+    }
+}
+/* @media screen and (max-width:345px)
     {
         .container {
             width: var(--container-width-us);
