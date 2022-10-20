@@ -39,7 +39,7 @@ body {
     font-family: 'Jost', sans-serif;
     line-height: 1.7;
     color: var(--color-black);
-    background: url(bg_past.png);
+    background: url(1.png);
     background-size: cover;
 /* background-repeat: no-repeat; */
 
@@ -159,7 +159,21 @@ img
     /* border: 2px solid red; */
 
 }
+#bg1
+{
+    display: flex;
 
+    justify-content: center;
+    align-items: center;
+}
+.bg
+{
+    
+    background: url(circle.png);
+    background-repeat: no-repeat;
+    padding-bottom: 2rem;
+
+}
 .wish {
     margin-top: 3rem;
 
