@@ -48,6 +48,68 @@ body {
 
 }
 
+/* -------------ballons----------------- */
+#b2 img {
+    height: 100px;
+    width: 100px;
+}
+
+.ballon img {
+    height: 100px;
+    width: 100px;
+}
+
+.ballon {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    opacity: 0;
+    margin-bottom: -100px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    /* border: solid red; */
+    /* padding-left: 3rem; */
+}
+
+.bal {
+    display: flex;
+    justify-content: center;
+    /* border: solid red; */
+}
+
+#b2 {
+    padding-left: 3rem;
+    display: flex;
+    position: absolute;
+
+}
+
+@keyframes example {
+    0% {
+        /* background-color: red; */
+        margin-bottom:-100px;
+    }
+    2%
+    {
+opacity: 1;
+    }
+
+    100% {
+   margin-bottom: 600px;
+   /* display: none; */
+    }
+
+}
+
+
+
+
+
+
+
+
+/* ends */
 .loaded {
     opacity: 1;
 }
@@ -187,12 +249,11 @@ a {
 
 }
 
-footer p
-{
+footer p {
     font-size: 1rem;
 }
-footer
-{
+
+footer {
     font-size: 0.4rem;
     padding-top: 1rem;
     padding-bottom: 3rem;
@@ -217,8 +278,8 @@ footer
     }
 
     .button .b {
-    height: 52px;
-    width: 140px;
+        height: 52px;
+        width: 140px;
     }
 
     .wish .p {
