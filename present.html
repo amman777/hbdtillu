@@ -17,34 +17,36 @@
     <!-- para font -->
     <link href="https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap"
-    rel="stylesheet">
+        rel="stylesheet">
 </head>
 
 <body onload="document.body.classList.add('loaded')">
+    <div class="preloader">
 
+    </div>
     <div class="container box">
         <section id="bg1">
-        <div class="bg">
-        <section class="images" id="ig1">
-            <div class="img" id="img1">
-                <a href="q1.html">
-                    <img src="smita2.jpg" alt="" class="img1">
-                </a>
-                <a href="q2.html">
-                    <img src="soni2.jpg" alt="" class="img2">
-                </a>
-            </div>
-        </section>
-            <section class="images" id="ig2">
-            <div class="img" id="img2">
-                <a href="q3.html">
-                    <img src="yashika1.jpg" alt="" class="img3">
-                </a>
-                <a href="q4.html">
-                    <img src="jago1 (1).jpg" alt="" class="img4">
-                </a>
-            </div>
-        </section>
+            <div class="bg">
+                <section class="images" id="ig1">
+                    <div class="img" id="img1">
+                        <a href="q1.html">
+                            <img src="smita2.jpg" alt="" class="img1">
+                        </a>
+                        <a href="q2.html">
+                            <img src="soni2.jpg" alt="" class="img2">
+                        </a>
+                    </div>
+                </section>
+                <section class="images" id="ig2">
+                    <div class="img" id="img2">
+                        <a href="q3.html">
+                            <img src="yashika1.jpg" alt="" class="img3">
+                        </a>
+                        <a href="q4.html">
+                            <img src="jago1 (1).jpg" alt="" class="img4">
+                        </a>
+                    </div>
+                </section>
             </div>
         </section>
 
@@ -61,12 +63,18 @@
         <section class="circles">
             <div class="circle">
                 <a href="select.html">
-<p>Go Back</p>
-</a>
+                    <p>Go Back</p>
+                </a>
             </div>
         </section>
 
     </div>
+    <script>
+        let loader = document.querySelector(".preloader");
+        window.addEventListener("load", () => {
+            loader.style.display = "none"
+        }) 
+    </script>
 </body>
 
 </html>

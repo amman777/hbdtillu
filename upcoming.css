@@ -47,6 +47,17 @@ body {
     
 
 }
+.preloader
+{
+    background: #FFF6D6 url(a22.gif) no-repeat center;
+    background-size: 50%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    margin-top: -10rem;
+    /* border: 1px solid red; */
+}
 .loaded {
     opacity: 1;
 }
