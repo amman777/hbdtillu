@@ -21,7 +21,9 @@
 </head>
 
 <body onload="document.body.classList.add('loaded')">
+    <div class="preloader">
 
+    </div>
     <div class="container box">
         <section id="bg1">
             <div class="bg">
@@ -67,6 +69,14 @@
         </section>
 
     </div>
+    <script>
+      
+
+        let loader=document.querySelector(".preloader");  
+     window.addEventListener("load",()=>{  
+       loader.style.display="none"  
+     }) 
+    </script>
 </body>
 
 </html>
