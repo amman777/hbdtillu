@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loading Webpage</title>
+    <link rel="stylesheet" href="load.css">
+</head>
+
+<body>
+    <div class="preloader">
+
+    </div>
+
+    <div class="g">
+        <h3>loaded page</h3>
+    </div>
+
+
+    </div>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+
+    </script>
+    <script>
+        setTimeout(function () {
+            $('.loader_bg').fadeToggle();
+        }, 300);
+    </script> -->
+
+    <script>
+      
+
+        let loader=document.querySelector(".preloader");  
+     window.addEventListener("load",()=>{  
+       loader.style.display="none"  
+     }) 
+    </script>
+  
+</body>
+
+</html>

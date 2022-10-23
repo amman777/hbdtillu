@@ -285,3 +285,10 @@ align-items: center;
             width: 120px;
         }
     }
+    .ftr
+    {
+        display: flex;
+        word-spacing: 3px;
+        justify-content: center;
+        align-items: center;
+    }
